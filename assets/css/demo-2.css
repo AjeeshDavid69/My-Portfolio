@@ -206,16 +206,16 @@ a {
 
 .ms-flash:after {
   content: "";
-  width: 2000px;
-  height: 2000px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-  -webkit-animation: ms-flash 3s ease-in-out infinite;
-          animation: ms-flash 3s ease-in-out infinite;
+  left: -150px;
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: rotate(45deg);
+  animation: ms-flash 3s ease-in-out infinite;
   z-index: 99;
+
 }
 
 @-webkit-keyframes ms-flash {
